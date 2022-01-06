@@ -87,3 +87,22 @@ h2{
     height: 500px ;
     width: 500px ;
 }
+
+
+footer{
+    
+    margin: 0 -0.52% -0.99% -0.52%  ;
+    background-color: rgb(9, 1, 37);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+footer h2{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.red-text{
+    color: red;
+}
