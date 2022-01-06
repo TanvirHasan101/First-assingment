@@ -99,11 +99,15 @@ h2{
     height: 30px;
     width: 500px;
     background-color: rgba(82, 82, 255, 0.39);
+    border:1px solid grey;
+    border-radius: 10px;
 }
 #email{
     height: 30px ;
     width: 500px;
     background-color: rgba(82, 82, 255, 0.39);
+    border:1px solid grey;
+    border-radius: 10px;
 }
 
 button{
