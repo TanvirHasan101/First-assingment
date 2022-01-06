@@ -1,0 +1,43 @@
+
+h1{
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+.flex-container{
+    display: flex;
+}
+.first-section-image{
+    height: 400px;
+    width: 400px;
+}
+.half-width{
+    
+    width: 40%;
+    margin: 0% 5% 0% 3%;
+    padding: 5%;
+}
+.side-border{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(0, 0, 180), rgb(35, 241, 241));
+    border-image-slice: 1;
+    padding-left: 10px;
+}
+
+.blue-colored-text{
+    color: rgb(14, 14, 160);
+}
+.anchor-button{
+    text-decoration: none;
+    font-weight: 700;
+    background: linear-gradient(45deg, rgb(94, 116, 241), rgb(41, 37, 243));
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.peragraph{
+    font-size:18px ;
+}
+.second-section{
+    text-align: center;
+}
