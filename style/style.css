@@ -3,17 +3,20 @@ h1{
     font-size: 50px;
     font-family: 'Roboto Slab', serif;
 }
+h2{
+    font-family: 'Roboto Slab', serif; 
+}
 .flex-container{
     display: flex;
 }
-.first-section-image{
+.first-section img{
     height: 400px;
     width: 400px;
 }
 .half-width{
     
     width: 40%;
-    margin: 0% 5% 0% 3%;
+    margin: 0% 5% 0% 5%;
     padding: 5%;
 }
 .side-border{
@@ -37,7 +40,36 @@ h1{
 }
 .peragraph{
     font-size:18px ;
+    text-align: justify;
 }
+
 .second-section{
+    margin:10px 15% ;
+}
+.second-section-heading{
     text-align: center;
+}
+
+.second-section img{
+    height: 180px;
+    width: 180px;
+}
+.three-cards{
+    width: 45%;
+    margin: 10% 2% 5% 2% ;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+#mission{
+    background-color: rgba(218, 112, 214, 0.342);
+}
+#vision{
+    background-color: rgba(205, 134, 63, 0.425);
+}
+#goals{
+    background-color: rgba(240, 230, 140, 0.39);
 }
