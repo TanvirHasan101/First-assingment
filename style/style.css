@@ -10,8 +10,8 @@ h2{
     display: flex;
 }
 .first-section img{
-    height: 400px;
-    width: 400px;
+    height: 550px;
+    width: 550px;
 }
 .half-width{
     
@@ -89,6 +89,33 @@ h2{
 }
 
 
+.fifth-section{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+#name{
+    height: 30px;
+    width: 500px;
+    background-color: rgba(82, 82, 255, 0.39);
+}
+#email{
+    height: 30px ;
+    width: 500px;
+    background-color: rgba(82, 82, 255, 0.39);
+}
+
+button{
+    font-family: 'Roboto', sans-serif;    
+    text-decoration: none;
+    font-weight: 700;
+    background: linear-gradient(45deg, rgb(94, 116, 241), rgb(41, 37, 243));
+    padding: 12px 46px;
+    border-radius: 5px;
+    color: white;
+}
+
 footer{
     
     margin: 0 -0.52% -0.99% -0.52%  ;
@@ -96,13 +123,14 @@ footer{
     color: white;
     text-align: center;
     padding: 30px;
+    
 }
 
-footer h2{
+footer h1{
     font-family: 'Lobster', cursive;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .red-text{
-    color: red;
+    color: rgb(206, 3, 3);
 }
