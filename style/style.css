@@ -15,7 +15,7 @@ h2{
 }
 .half-width{
     
-    width: 40%;
+    width: 45%;
     margin: 0% 5% 0% 5%;
     padding: 5%;
 }
@@ -30,16 +30,19 @@ h2{
     color: rgb(14, 14, 160);
 }
 .anchor-button{
+    font-family: 'Roboto', sans-serif;    
     text-decoration: none;
     font-weight: 700;
     background: linear-gradient(45deg, rgb(94, 116, 241), rgb(41, 37, 243));
-    padding: 10px 40px;
+    padding: 12px 46px;
     border-radius: 5px;
     color: white;
     
 }
 .peragraph{
-    font-size:18px ;
+    font-size:20px ;
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 500;
     text-align: justify;
 }
 
@@ -61,7 +64,7 @@ h2{
     padding-right: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
-    box-shadow: 5px 5px 20px gray;
+   
 }
 
 #mission{
@@ -72,4 +75,10 @@ h2{
 }
 #goals{
     background-color: rgba(240, 230, 140, 0.39);
+}
+
+
+.third-section img{
+    height: 500px ;
+    width: 500px ;
 }
